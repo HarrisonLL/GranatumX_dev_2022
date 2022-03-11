@@ -13,7 +13,7 @@ For graphing, we use Plotly.js to deliver result from each chunked data in real 
 
 ## Prototypes in this repo
 1. The first runs K-means. The webworker send clustered data by chunk.
-2. THe second runs Normal distribution. The webworker send generated data point by point.
+2. The second runs Normal distribution. The webworker send generated data point by point.
 
 ## To run
 go to each folder and then run the following command
