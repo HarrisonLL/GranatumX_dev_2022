@@ -17,4 +17,5 @@ For graphing, we use Plotly.js to deliver result from each chunked data in real 
 
 ## To run
 go to each folder and then run the following command
+
 $ python -m http.server 8000
