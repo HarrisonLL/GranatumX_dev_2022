@@ -5,7 +5,7 @@ This github contains prototypes of visualization tools. It can be useful for bat
 ## Main Idea
 We use JS webworker for multi-threading. The webwork takes in chunked dataset and run ML iteratively. Once one chunk is finished, it sends the result to the main thread using Json string. User can terminate the webwork if the result is not desirable. 
 
-For ML unit, we use Pyodide convert Python code to JS runnable binary code. Currently, we can run scikit-learn but not scanpy which consums C-Python. This leaves for future endeavor.
+For ML unit, we use Pyodide to convert Python code to JS runnable binary code. Currently, we can run scikit-learn but not scanpy which consums C-Python. This leaves for future endeavor.
 
 For graphing, we use Plotly.js to deliver result from each chunked data in real time.
 
