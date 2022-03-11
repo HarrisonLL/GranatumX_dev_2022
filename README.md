@@ -9,6 +9,8 @@ For ML unit, we use Pyodide convert Python code to JS runnable binary code. Curr
 
 For graphing, we use Plotly.js to deliver result from each chunked data in real time.
 
+![alt text](./demo.png)
+
 ## Prototypes in this repo
 1. The first runs K-means. The webworker send clustered data by chunk.
 2. THe second runs Normal distribution. The webworker send generated data point by point.
