@@ -1,6 +1,6 @@
 # GranatumX_dev_2022
 
-This github contains prototypes of visualization tools. It can be useful for batch processing on genetic data. Currently, we still have package installation issue.
+This github contains prototypes of visualization tools. It can be useful for batch (chunk) processing on gene expression data. Currently, we still have package installation issue.
 
 ## Main Idea
 We use JS webworker for multi-threading. The webwork takes in chunked dataset and run ML iteratively. Once one chunk is finished, it sends the result to the main thread using Json string. User can terminate the webwork if the result is not desirable. 
